@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('/fonts/monsterrat/Montserrat-Light.woff2') format('woff2');
+    src: url('/fonts/monsterrat/Montserrat-Regular.woff2') format('woff2');
     font-weight: normal;
     font-display: swap;
 }
@@ -13,7 +13,68 @@
     font-display: swap;
 }
 
+
 body {
     font-family: 'Montserrat';
     font-size: 13px;
+    line-height: 18px;
 }
+
+.product-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.product-title {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 27px;
+    margin: 0;
+    color:#515076;
+}
+
+.subtitle {
+    font-size: 12;
+    line-height: 24px;
+    margin: 0;
+    color: #A5A3B9;
+}
+
+.price_title {
+    font-size: 20;
+    font-weight: bold;
+    line-height: 24px;
+    margin: 0;
+    color: #515076;
+}
+
+.price {
+    font-size: 20;
+    font-weight: normal;
+    line-height: 24px;
+    margin: 0;
+    color: #515076;
+}
+
+.title {
+    font-size: 70px;
+    font-weight: normal;
+    line-height: 78px;
+    margin: 0;
+    text-align: center;
+    color:#515076;
+}
+
+.main_text {
+    font-weight: normal;
+    color:#515076;
+}
+
+.background {
+    background-color: #F7F7FA;
+    width: 295px;
+    height: 430px;
+    padding: 25px;
+    margin: 25px;
+  }
