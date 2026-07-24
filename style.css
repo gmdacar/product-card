@@ -1,5 +1,19 @@
 
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/monsterrat/Montserrat-Light.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/monsterrat/Montserrat-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-display: swap;
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat';
     font-size: 13px;
 }
