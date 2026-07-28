@@ -13,6 +13,11 @@
   font-display: swap;
 }
 
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
 
 body {
   font-family: 'Montserrat';
@@ -73,8 +78,8 @@ body {
 
 .background {
   background-color: #F7F7FA;
-  width: 295px;
-  height: 430px;
+  width: 340px;
+  height: 573px;
   padding: 25px;
-  margin: 25px;
+  margin: 45px;
 }
