@@ -28,7 +28,11 @@ body {
 .product-list {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 110px 116px auto 116px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 45px;
 }
 
 .product-title {
@@ -46,6 +50,11 @@ body {
   color: #A5A3B9;
 }
 
+.price {
+  display: flex;
+  justify-content: space-between;
+}
+
 .price_title {
   font-size: 20;
   font-weight: bold;
@@ -54,12 +63,20 @@ body {
   color: #515076;
 }
 
-.price {
+.price_count {
   font-size: 20;
   font-weight: normal;
   line-height: 24px;
   margin: 0;
   color: #515076;
+}
+
+.card_header {
+  margin-top: 28px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .title {
@@ -76,10 +93,15 @@ body {
   color:#515076;
 }
 
-.background {
+.product_compound {
+  margin: 0;
+  font-weight: normal;
+  color:#515076;
+}
+
+.product_card {
   background-color: #F7F7FA;
   width: 340px;
   height: 573px;
   padding: 25px;
-  margin: 45px;
 }
