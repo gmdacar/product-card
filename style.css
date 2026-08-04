@@ -56,7 +56,7 @@ body {
 }
 
 .price_title {
-  font-size: 20;
+  font-size: 20px;
   font-weight: bold;
   line-height: 24px;
   margin: 0;
@@ -64,7 +64,7 @@ body {
 }
 
 .price_count {
-  font-size: 20;
+  font-size: 20px;
   font-weight: normal;
   line-height: 24px;
   margin: 0;
