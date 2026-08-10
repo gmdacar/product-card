@@ -25,86 +25,8 @@ body {
   line-height: 18px;
 }
 
-.product-list {
+.clear-list {
   list-style: none;
   padding: 0;
-  margin: 110px 116px auto 116px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 45px;
-}
-
-.product-title {
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 27px;
   margin: 0;
-  color:#515076;
-}
-
-.subtitle {
-  font-size: 12;
-  line-height: 24px;
-  margin: 0;
-  color: #A5A3B9;
-}
-
-.price {
-  display: flex;
-  justify-content: space-between;
-}
-
-.price_title {
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 24px;
-  margin: 0;
-  color: #515076;
-}
-
-.price_count {
-  font-size: 20px;
-  font-weight: normal;
-  line-height: 24px;
-  margin: 0;
-  color: #515076;
-}
-
-.card_header {
-  margin-top: 28px;
-  margin-bottom: 15px;
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
-
-.title {
-  font-size: 70px;
-  font-weight: normal;
-  line-height: 78px;
-  margin: 0;
-  text-align: center;
-  color:#515076;
-}
-
-.main_text {
-  font-weight: normal;
-  color:#515076;
-}
-
-.product_compound {
-  margin-left: 0;
-  padding-left: 0;
-  list-style-position: inside;
-  margin-bottom: 25px;
-  font-weight: normal;
-  color:#515076;
-}
-
-.product_card {
-  background-color: #F7F7FA;
-  width: 340px;
-  height: 573px;
-  padding: 25px;
 }
