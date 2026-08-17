@@ -30,3 +30,56 @@ body {
   padding: 0;
   margin: 0;
 }
+
+.container {
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 220px;
+}
+
+.title {
+  font-weight: normal;
+  font-size: 70px;
+  text-align: center;
+  line-height: 78px;
+  margin-bottom: 110px;
+  color: #515076;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 45px;
+}
+
+.card {
+  background-color: #F7F7FA;
+  width: 340px;
+  height: 573px;
+  padding: 25px;
+}
+
+.card_image {
+  margin-bottom: 30px;
+}
+
+.card_category {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  color: #A5A3B9;
+  text-transform: uppercase;
+}
+
+card_name {
+
+}
+
+card_description {
+
+}
+
+card_compound {
+    
+}
