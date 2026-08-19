@@ -23,6 +23,8 @@ body {
   font-family: 'Montserrat';
   font-size: 13px;
   line-height: 18px;
+  background-image: url(img/background.png);
+  background-repeat: no-repeat;
 }
 
 .clear-list {
