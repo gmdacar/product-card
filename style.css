@@ -136,3 +136,7 @@ body {
   color:#515076;
   margin-top: 0;
 }
+
+.blue_button {
+  background-color: blue;
+}
