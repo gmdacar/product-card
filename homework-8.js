@@ -40,6 +40,18 @@ function loggingObjectVariable(object, variable){
 
 // task-5, productsArray
 
-const productsName [Apple, Banana, Beef, Bread, Cheese]
+const productsName = [Apple, Banana, Beef, Bread, Cheese]
 
-// task-6, bookArray and merging Arrays
+// task-6, bookArray
+
+books = [
+    {
+    "name": "Harry Potter",
+    "author": "J.K. Rowling",
+    "release year": 1997,
+    "genre": "fantasy"
+
+    }
+
+
+]
