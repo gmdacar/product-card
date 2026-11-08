@@ -101,8 +101,4 @@ function AddingRarity(year) {
     }
 }
 
-console.log(AllBooks)
-
 AllBooks.map(object => object.isRare = AddingRarity(object.releaseYear))
-
-//IsRare = AddingRarity(releaseYear)
