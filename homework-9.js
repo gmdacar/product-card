@@ -1,3 +1,5 @@
+import { comments } from "./comments";
+
 const numArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let filteredArray = numArray.filter((num) => num >= 5);
 
@@ -13,3 +15,7 @@ reversingArray(filteredArray);
 
 console.log(filteredArray);
 console.log(filmArray);
+
+import { comments } from "./comments";
+
+const comUsers = comments.filter((comment) => includes(user.comment, ".com"));
