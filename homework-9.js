@@ -16,6 +16,12 @@ reversingArray(filteredArray);
 console.log(filteredArray);
 console.log(filmArray);
 
-import { comments } from "./comments";
+console.log(comments);
 
-const comUsers = comments.filter((comment) => includes(user.comment, ".com"));
+/*
+const filteredComment = comments.filter((comment) =>
+  includes(comment.email, ".com"),
+);
+
+console.log(filteredComment);
+*/
