@@ -1,4 +1,4 @@
-import { comments } from "./comments";
+import { comments } from "./comments.js";
 
 const numArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let filteredArray = numArray.filter((num) => num >= 5);
@@ -13,15 +13,24 @@ function reversingArray(array) {
 
 reversingArray(filteredArray);
 
-console.log(filteredArray);
-console.log(filmArray);
-
-console.log(comments);
-
-/*
-const filteredComment = comments.filter((comment) =>
-  includes(comment.email, ".com"),
+const comEmailComments = comments.filter((comment) =>
+  comment.email.includes(".com"),
 );
 
-console.log(filteredComment);
-*/
+console.log(comEmailComments);
+
+const postIdComments = comments.map((comment) => {
+  if (comment.id <= 5) {
+    comment.postId = 2;
+    console.log(2);
+  } else {
+    comment.postId = 1;
+    console.log(1);
+  }
+
+  {
+    return comment;
+  }
+});
+
+console.log(postIdComments);
