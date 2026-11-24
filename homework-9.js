@@ -34,3 +34,9 @@ const postIdComments = comments.map((comment) => {
 });
 
 console.log(postIdComments);
+
+const shortComments = comments.map(
+  (comment) => (({ postId, email, body, ...rest } = comment), { return: rest }),
+);
+
+console.log(shortComments);
