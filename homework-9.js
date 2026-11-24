@@ -35,8 +35,30 @@ const postIdComments = comments.map((comment) => {
 
 console.log(postIdComments);
 
-const shortComments = comments.map(
-  (comment) => (({ postId, email, body, ...rest } = comment), { return: rest }),
-);
+const shortComments = comments.map((comment) => {
+  const { postId, email, body, ...rest } = comment;
+  return rest;
+});
 
-console.log(shortComments);
+const invalidComments = comments.map((comment) => {
+  if (comment.body.length > 180) {
+    comment.isInvalid = true;
+  } else {
+    comment.isInvalid = false;
+  }
+  {
+    return comment;
+  }
+});
+
+const emailComments_1 = comments.reduce(function (array, comment) {
+  return [...array, comment.email];
+}, []);
+
+const emailComments_2 = comments.map((comment) => comment.email);
+
+const stringComments_1 = emailComments_1.toString();
+
+const stringComments_2 = emailComments_2.join(", ");
+
+console.log(stringComments_2);
