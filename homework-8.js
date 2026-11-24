@@ -92,7 +92,6 @@ let AllBooks = [...books, ...FantasyBooks];
 // task-8, добавление переменной во все объекты внутри массива
 
 function AddingRarity(year) {
-  console.log(year);
   if (year >= 2000) {
     return false;
   } else {
